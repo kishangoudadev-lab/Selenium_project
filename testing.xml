@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyStoreTestSuite" verbose="1" parallel="false">
+
+    <!-- Define the test -->
+    <test name="HomePageTests">
+        <classes>
+            <!-- Fully qualified class name -->
+            <class name="com.myStore.test.TestCases.HomePageTest"/>
+            <class name="com.myStore.test.TestCases.LoginPageTest"/>
+        </classes>
+    </test>
+
+</suite>
