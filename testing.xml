@@ -8,6 +8,8 @@
             <!-- Fully qualified class name -->
             <class name="com.myStore.test.TestCases.HomePageTest"/>
             <class name="com.myStore.test.TestCases.LoginPageTest"/>
+            <class name="com.myStore.test.TestCases.CartPageTest"/>
+            <class name="com.myStore.test.TestCases.SearchPageTest"/>
         </classes>
     </test>
 
